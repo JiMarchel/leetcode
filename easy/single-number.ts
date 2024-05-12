@@ -13,3 +13,5 @@ function singleNumber(nums: number[]): number {
 }
 
 console.log(singleNumber([2, 2, 1, 3, 3, 3, 3, 3]));
+
+// https://leetcode.com/problems/single-number/
