@@ -8,8 +8,6 @@ function addDigits(num: number) {
       .reduce((a, c) => a + c);
     string = String(toNum);
   }
-  console.log(typeof string);
-
   return string;
 }
 
