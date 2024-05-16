@@ -1,10 +1,10 @@
 function nextGreaterElement(nums1: number[], nums2: number[]): number[] {
   const maps: Record<string, number> = {};
-  const stack = [];
+  const stack: number[] = [];
 
   for (const num of nums2) {
-    while (num > stack.at(-1)) {
-      maps[stack.pop()] = num;
+    while (stack.length > 0 && num > stack.at(-1)!) {
+      maps[stack.pop()!] = num;
     }
     stack.push(num);
   }
