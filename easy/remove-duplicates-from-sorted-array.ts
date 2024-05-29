@@ -3,8 +3,6 @@ function removeDuplicates(nums: number[]) {
 
   for (let j = 1; j < nums.length; j++) {
     if (nums[j] !== nums[i]) {
-      console.log(nums);
-
       i++;
       nums[i] = nums[j];
     }

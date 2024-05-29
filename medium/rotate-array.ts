@@ -5,7 +5,6 @@ function rotate(nums: number[], k: number): void {
     n.push(num);
   }
   nums.unshift(...n.reverse());
-  console.log(nums);
 }
 
 console.log(rotate([1, 2, 3, 4, 5, 6, 7], 3));
