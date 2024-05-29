@@ -29,6 +29,7 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
     return false;
   });
 }
+
 console.log(canConstruct("aab", "aab"));
 
 // https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150
