@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+// package main
 
 func findLucky(arr []int) int {
 	freqMap := make(map[int]int)
@@ -19,7 +17,7 @@ func findLucky(arr []int) int {
 	return lucky
 }
 
-func main() {
-	arr := []int{2, 2, 3, 4}
-	fmt.Println(findLucky(arr))
-}
+// func main() {
+// 	arr := []int{2, 2, 3, 4}
+// 	fmt.Println(findLucky(arr))
+// }
