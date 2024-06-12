@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"strings"
 )
 
@@ -16,8 +16,9 @@ func isPrefixOfWord(sentence string, searchWord string) int {
 	return -1
 }
 
-func main() {
-	sentence := "i love eating burger"
-	searchWord := "burg"
-	fmt.Println(isPrefixOfWord(sentence, searchWord)) // Output: 4
-}
+//
+// func main() {
+// 	sentence := "i love eating burger"
+// 	searchWord := "burg"
+// 	fmt.Println(isPrefixOfWord(sentence, searchWord)) // Output: 4
+// }
