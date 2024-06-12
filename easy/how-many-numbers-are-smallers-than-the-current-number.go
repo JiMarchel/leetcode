@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func smallerNumbersThanCurrent(nums []int) []int {
 	result := make([]int, len(nums))
@@ -18,7 +18,7 @@ func smallerNumbersThanCurrent(nums []int) []int {
 	return result
 }
 
-func main() {
-	arr := []int{8, 1, 2, 2, 3}
-	fmt.Println(smallerNumbersThanCurrent(arr))
-}
+// func main() {
+// 	arr := []int{8, 1, 2, 2, 3}
+// 	fmt.Println(smallerNumbersThanCurrent(arr))
+// }

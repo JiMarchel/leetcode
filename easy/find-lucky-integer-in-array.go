@@ -1,4 +1,4 @@
-// package main
+package main
 
 func findLucky(arr []int) int {
 	freqMap := make(map[int]int)
