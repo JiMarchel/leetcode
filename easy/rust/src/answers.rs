@@ -30,3 +30,22 @@ pub fn thousand_separator(n: i32) -> String {
 
     result
 }
+
+// https://leetcode.com/problems/rearrange-spaces-between-words/
+pub fn reorder_spaces(text: String) -> String {
+    let total_space = text.chars().filter(|&c| c == ' ').count();
+
+    let words: Vec<&str> = text.split_whitespace().collect();
+    let words_count = words.len();
+
+    if words_count == 1 {
+        return format!("{}{}", words[0], " ".repeat(total_space));
+    }
+
+    let space_between_words = total_space / (words_count - 1);
+    let extra_spaces = total_space % (words_count - 1);
+
+    let result = words.join(&" ".repeat(space_between_words));
+
+    format!("{}{}", result, " ".repeat(extra_spaces))
+}
