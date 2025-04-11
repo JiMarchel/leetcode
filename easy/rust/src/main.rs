@@ -1,12 +1,17 @@
+use answer::implement_stack_using_queues::MyStack;
+
+pub mod answer;
 pub mod answers;
 
 fn main() {
-    // let res = thousand_separator::thousand_separator(22142000);
-    // println!("{}", res);
+    let mut obj = MyStack::new();
 
-    // let res = answers::modify_string("s?fs".to_string());
-    // println!("{}", res)
+    obj.push(1);
+    obj.push(2);
 
-    let res = answers::reorder_spaces(" practice   makes   perfect".to_string());
-    println!("{}", res)
+    let ret_2 = obj.pop();
+    let ret_3 = obj.top();
+    let ret_4 = obj.empty();
+
+    println!("poping data {ret_2}, top data {ret_3}, is stack empty {ret_4}")
 }
