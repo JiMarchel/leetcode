@@ -1,3 +1,4 @@
+pub mod final_price_with_a_special_discount_in_a_shop;
 pub mod clear_digits;
 pub mod implement_queue_using_stacks;
 pub mod implement_stack_using_queues;
