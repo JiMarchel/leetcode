@@ -1,4 +1,4 @@
-struct Solution;
+pub struct Solution;
 impl Solution {
     pub fn par_match(open: char, close: char) -> bool {
         let op = "({[";
