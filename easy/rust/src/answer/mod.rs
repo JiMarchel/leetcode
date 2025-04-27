@@ -5,3 +5,4 @@ pub mod implement_stack_using_queues;
 pub mod number_of_students_unable_to_eat_lunch;
 pub mod valid_parentheses;
 pub mod reverse_prefix_word;
+pub mod make_the_string_great;
