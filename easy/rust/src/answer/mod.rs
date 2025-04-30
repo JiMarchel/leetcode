@@ -11,3 +11,4 @@ pub mod crawler_log_folder;
 pub mod maximum_nesting_depth_of_the_parentheses;
 pub mod backspace_string_compare;
 pub mod minimum_string_length_after_removing_substring;
+pub mod power_of_two;
