@@ -13,3 +13,4 @@ pub mod backspace_string_compare;
 pub mod minimum_string_length_after_removing_substring;
 pub mod power_of_two;
 pub mod power_of_three;
+pub mod power_of_four;
