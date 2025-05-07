@@ -1,5 +1,6 @@
 pub mod backspace_string_compare;
 pub mod baseball_game;
+pub mod best_time_to_buy_and_sell_stock;
 pub mod clear_digits;
 pub mod crawler_log_folder;
 pub mod fibonacci;
