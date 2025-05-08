@@ -9,6 +9,7 @@ pub mod implement_queue_using_stacks;
 pub mod implement_stack_using_queues;
 pub mod make_the_string_great;
 pub mod maximum_nesting_depth_of_the_parentheses;
+pub mod min_cost_climbing_stairs;
 pub mod minimum_string_length_after_removing_substring;
 pub mod number_of_students_unable_to_eat_lunch;
 pub mod pascal_triangle;
