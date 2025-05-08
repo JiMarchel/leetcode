@@ -3,6 +3,7 @@ pub mod baseball_game;
 pub mod best_time_to_buy_and_sell_stock;
 pub mod clear_digits;
 pub mod crawler_log_folder;
+pub mod divisor_game;
 pub mod fibonacci;
 pub mod final_price_with_a_special_discount_in_a_shop;
 pub mod implement_queue_using_stacks;
