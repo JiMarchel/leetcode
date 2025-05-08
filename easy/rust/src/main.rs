@@ -1,10 +1,7 @@
-use answer::backspace_string_compare::Solution;
-
-
+use answer::pascal_tringle::Solution;
 
 pub mod answer;
 
 fn main() {
-    let s = Solution::backspace_compare("ab##".to_string(), "c#d#".to_string());
-    println!("{s}");
+    println!("{:?}", Solution::generate(5));
 }

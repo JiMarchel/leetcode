@@ -11,6 +11,7 @@ pub mod make_the_string_great;
 pub mod maximum_nesting_depth_of_the_parentheses;
 pub mod minimum_string_length_after_removing_substring;
 pub mod number_of_students_unable_to_eat_lunch;
+pub mod pascal_tringle;
 pub mod power_of_four;
 pub mod power_of_three;
 pub mod power_of_two;
