@@ -13,6 +13,7 @@ pub mod maximum_nesting_depth_of_the_parentheses;
 pub mod maximum_repeating_substring;
 pub mod min_cost_climbing_stairs;
 pub mod minimum_string_length_after_removing_substring;
+pub mod n_th_tribonacci_number;
 pub mod number_of_students_unable_to_eat_lunch;
 pub mod pascal_triangle;
 pub mod pascal_triangle_2;
