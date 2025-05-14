@@ -9,4 +9,5 @@ function compose(functions: F[]): F {
     }
 };
 
-console.log(compose([x => 10 * x, x => 10 * x, x => 10 * x]))
+const fn = compose([x => 10 * x, x => 10 * x, x => 10 * x])
+console.log(fn(4))
